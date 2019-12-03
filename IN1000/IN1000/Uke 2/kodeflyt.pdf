@@ -1,0 +1,18 @@
+1       def print_prosa():
+4,13      print("Melding til alle gaardeiere:")
+5,14      print("Antall dyr paa gaarden: ")
+
+2,7,9   antall_dyr = 4
+3       print_prosa()
+6       print(antall_dyr)
+8,10    antall_nye_dyr = int(input("Hvor mange nye dyr kommer til gaarden: "))
+11,16   antall_dyr = antall_dyr+antall_nye_dyr
+12      print_prosa()
+15      print(antall_dyr)
+
+16      if antall_dyr > 12:
+          print("Det er mer enn ett dusin dyr paa gaarden!")
+17      elif antall_dyr == 12:
+18        print("Det er ett dusin dyr paa gaarden!")
+        else:
+          print("Det er mindre enn ett dusin dyr paa gaarden!")

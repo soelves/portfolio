@@ -1,0 +1,9 @@
+Noder monteres i rack.
+En node har 1 eller 2 prosessorer, og et heltallig antall GB med minne.
+
+Tre klasse:
+-Noder
+-Racks
+-Regneklynge
+
+Regneklyngen bruker Racks som bruker Noder.
