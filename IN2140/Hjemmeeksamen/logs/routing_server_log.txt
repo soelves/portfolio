@@ -1,0 +1,65 @@
+[14:58:23.763633000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54763
+
+Node: 1, Antall kanter: 3
+Kant: 2, Vekt: 4
+Kant: 4, Vekt: 2
+Kant: 16, Vekt: 8
+[14:58:23.763740000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54764
+
+Node: 2, Antall kanter: 2
+Kant: 1, Vekt: 4
+Kant: 8, Vekt: 1
+[14:58:23.763812000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54765
+
+Node: 4, Antall kanter: 2
+Kant: 1, Vekt: 2
+Kant: 16, Vekt: 5
+[14:58:23.765175000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54766
+
+Node: 8, Antall kanter: 3
+Kant: 2, Vekt: 1
+Kant: 16, Vekt: 3
+Kant: 32, Vekt: 1
+[14:58:23.766781000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54767
+
+Node: 16, Antall kanter: 6
+Kant: 1, Vekt: 8
+Kant: 4, Vekt: 5
+Kant: 8, Vekt: 3
+Kant: 32, Vekt: 2
+Kant: 64, Vekt: 5
+Kant: 256, Vekt: 2
+[14:58:23.769139000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54768
+
+Node: 32, Antall kanter: 4
+Kant: 8, Vekt: 1
+Kant: 16, Vekt: 2
+Kant: 128, Vekt: 2
+Kant: 256, Vekt: 4
+[14:58:23.769183000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54769
+
+Node: 64, Antall kanter: 2
+Kant: 16, Vekt: 5
+Kant: 256, Vekt: 5
+[14:58:23.770549000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54770
+
+Node: 128, Antall kanter: 2
+Kant: 32, Vekt: 2
+Kant: 256, Vekt: 3
+[14:58:23.771283000][[33mINFO [0m] routing_server.c:208 in start_server() - Connection from IP address 127.0.0.1 and port 54771
+
+Node: 256, Antall kanter: 4
+Kant: 16, Vekt: 2
+Kant: 32, Vekt: 4
+Kant: 64, Vekt: 5
+Kant: 128, Vekt: 3
+[14:58:23.771314000][[33mINFO [0m] routing_server.c:231 in start_server() - Ferdig med å hente data fra nodene.
+Node: 1, destinasjoner: 9, 1-1 2-2 4-4 8-2 16-4 32-2 64-4 128-2 256-4 
+Node: 2, destinasjoner: 4, 2-2 8-8 32-8 128-8 
+Node: 4, destinasjoner: 4, 4-4 16-16 64-16 256-16 
+Node: 8, destinasjoner: 3, 8-8 32-32 128-32 
+Node: 16, destinasjoner: 3, 16-16 64-64 256-256 
+Node: 32, destinasjoner: 2, 32-32 128-128 
+Node: 64, destinasjoner: 1, 64-64 
+Node: 128, destinasjoner: 1, 128-128 
+Node: 256, destinasjoner: 1, 256-256 
