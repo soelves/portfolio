@@ -1,0 +1,49 @@
+Starter: 5
+Ansatte som jobber: 2
+Tid: 0
+----------
+Starter: 1
+Ferdig: 5
+Starter: 6
+Ansatte som jobber: 4
+Tid: 4
+----------
+Ferdig: 6
+Ansatte som jobber: 2
+Tid: 6
+----------
+Ferdig: 1
+Starter: 2
+Ansatte som jobber: 4
+Tid: 8
+----------
+Ferdig: 2
+Starter: 3
+Starter: 4
+Starter: 7
+Ansatte som jobber: 7
+Tid: 14
+----------
+Ferdig: 3
+Ferdig: 4
+Ansatte som jobber: 2
+Tid: 15
+----------
+Ferdig: 7
+Starter: 8
+Ansatte som jobber: 4
+Tid: 18
+----------
+Ferdig: 8
+Ansatte som jobber: 0
+Tid: 22
+----------
+# Raskeste mulige  gjennomgang av prosjektet er 22 # 
+ID: 1, Build-walls, Tid: 4, Ansatte: 2, tStart: 4, tFerdig: 8, sStart: 4, Slack: 0, Jobben er kritisk!
+ID: 2, Build-roofs, Tid: 6, Ansatte: 4, tStart: 8, tFerdig: 14, sStart: 8, Slack: 0, Jobben er kritisk!
+ID: 3, Put-on-wallpapers, Tid: 1, Ansatte: 2, tStart: 14, tFerdig: 15, sStart: 17, Slack: 3
+ID: 4, Put-on-tiles, Tid: 1, Ansatte: 3, tStart: 14, tFerdig: 15, sStart: 21, Slack: 7
+ID: 5, Build-foundation, Tid: 4, Ansatte: 2, tStart: 0, tFerdig: 4, sStart: 0, Slack: 0, Jobben er kritisk!
+ID: 6, Make-floor, Tid: 2, Ansatte: 2, tStart: 4, tFerdig: 6, sStart: 12, Slack: 8
+ID: 7, Put-carpet-floor, Tid: 4, Ansatte: 2, tStart: 14, tFerdig: 18, sStart: 14, Slack: 0, Jobben er kritisk!
+ID: 8, Move-in, Tid: 4, Ansatte: 4, tStart: 18, tFerdig: 22, sStart: 18, Slack: 0, Jobben er kritisk!

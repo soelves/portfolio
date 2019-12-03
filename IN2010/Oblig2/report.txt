@@ -1,0 +1,28 @@
+REPORT
+
+1.  loopSjekk: O(V + E) ved dybdesøk.
+
+    tidsSkjema: Først går jeg gjennom nodene alle nodene en gang og sjekker
+    om de ikke har noen utKanter, og legger disse i en liste, kalt sluttJobber.
+    deretter tar jeg denne lista, og kjører timelapse1.
+    timelapse1 går først
+    til alle nodene i sluttJobber. Hvis noden har foreldre, så går timelapse1
+    gjennom alle sine foreldre noder.
+    Kantene blir gått gjennom en gang hver, mens nodene kan bli gått gjennom
+    flere ganger.
+    timelapse2 er veldig lik timelapse1, men istedenfor å gå gjennom hver nodes
+    utKanter, så går den gjennom hver nodes forfedre, som da blir det samme
+    konseptet som timelapse1.
+
+    Jeg tror derfor at tidskompleksiteten for algoritmen tidsSkjema vil være
+    O(K*2), som da blir O(K), siden det er antall kanter som vil styre tiden
+    til algoritmen.
+
+    resultat(metoden): O(n^2).
+
+2. Grafen må ikke ha en loop/løkke, den må følge formatet til innlesningsfilene,
+og den må være rettet.
+
+3.  Jeg brukte dybde først søk for å finne en loop.
+    Jeg er litt usikker på tidsSkjema brukte dybde eller bredde først,
+    jeg lener mot dybde, men er ikke helt sikker.

@@ -1,0 +1,319 @@
+Kjører med full range.
+
+1 000 SelectionSort:
+Stigende 0.2640802
+Synkende: 0.1458072
+Tilfeldig: 0.1883371
+
+1 000 InsertionSort:
+Stigende 0.0059621
+Synkende: 0.3390677
+Tilfeldig: 0.0911351
+
+1 000 QuickSort:
+Stigende 0.1214582
+Synkende: 0.0398854
+Tilfeldig: 0.0351411
+
+1 000 BucketSort:
+Stigende 0.0092021
+Synkende: 0.0084881
+Tilfeldig: 0.0090586
+
+5 000 SelectionSort:
+Stigende 0.8535311
+Synkende: 1.512494
+Tilfeldig: 0.6673978
+
+5 000 InsertionSort:
+Stigende 0.0230752
+Synkende: 1.219368
+Tilfeldig: 0.5963421
+
+5 000 QuickSort:
+Stigende 0.1921613
+Synkende: 0.0458035
+Tilfeldig: 0.1159275
+
+5 000 BucketSort:
+Stigende 0.0254928
+Synkende: 0.0251696
+Tilfeldig: 0.0282649
+
+10 000 SelectionSort:
+Stigende 1.5488875
+Synkende: 4.2046679
+Tilfeldig: 4.1656952
+
+10 000 InsertionSort:
+Stigende 0.0273775
+Synkende: 2.1693189
+Tilfeldig: 1.1671253
+
+10 000 QuickSort:
+Stigende 0.9025763
+Synkende: 0.8337391
+Tilfeldig: 0.2638698
+
+10 000 BucketSort:
+Stigende 0.1122321
+Synkende: 0.1247505
+Tilfeldig: 0.1833476
+
+50 000 SelectionSort:
+Stigende 25.287176
+Synkende: 96.4540931
+Tilfeldig: 317.0096477
+
+50 000 InsertionSort:
+Stigende 0.1483785
+Synkende: 52.6338418
+Tilfeldig: 24.0057464
+
+50 000 QuickSort:
+Stigende 0.8624591
+Synkende: 0.6547997
+Tilfeldig: 1.2118574
+
+50 000 BucketSort:
+Stigende 0.5041474
+Synkende: 0.507125
+Tilfeldig: 0.0624569
+
+100 000 SelectionSort:
+Stigende 103.0573642
+Synkende: 384.616498
+Tilfeldig: 1264.8869115
+
+100 000 InsertionSort:
+Stigende 0.2778539
+Synkende: 577.69265
+Tilfeldig: 124.0992793
+
+100 000 QuickSort:
+Stigende 2.405012
+Synkende: 2.396408
+Tilfeldig: 2.1020952
+
+100 000 BucketSort:
+Stigende 0.4944532
+Synkende: 0.1303978
+Tilfeldig: 0.5739305
+
+500 000 SelectionSort:
+Stigende 2635.6617392
+Synkende: 9610.4245634
+Tilfeldig: 31887.6450282
+
+500 000 InsertionSort:
+Stigende 0.521167
+Synkende: 14652.4751498
+Tilfeldig: 7245.8743194
+
+500 000 QuickSort:
+Stigende 3.5412649
+Synkende: 3.4931249
+Tilfeldig: 4.9331371
+
+500 000 BucketSort:
+Stigende 1.0070253
+Synkende: 0.7281483
+Tilfeldig: 0.9399728
+
+Tar vekk Selection og Insertion
+
+1 000 000 QuickSort:
+Stigende 5.6388913
+Synkende: 5.0577209
+Tilfeldig: 10.3562441
+
+1 000 000 BucketSort:
+Stigende 1.7830066
+Synkende: 1.5665291
+Tilfeldig: 1.4054558
+
+10 000 000 QuickSort:
+Stigende 30.4744345
+Synkende: 31.7708639
+Tilfeldig: 113.7484613
+
+10 000 000 BucketSort:
+Stigende 4.8327106
+Synkende: 4.4084228
+Tilfeldig: 23.4860825
+
+100 000 000 QuickSort:
+Stigende 301.7964234
+Synkende: 307.5119959
+Tilfeldig: 1274.6682847
+
+100 000 000 BucketSort:
+Stigende 49.3008432
+Synkende: 59.4673658
+Tilfeldig: 302.1875048
+
+Fikk denne da jeg prøvde på 1000000000.
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at Hovedprogram.main(Hovedprogram.java:84)
+---
+Kjører med range fra 0 til 9.
+
+1 000 SelectionSort:
+Stigende 0.267
+Synkende: 0.230
+Tilfeldig: 0.142
+
+1 000 InsertionSort:
+Stigende 0.321
+Synkende: 6.573
+Tilfeldig: 0.072
+
+1 000 QuickSort:
+Stigende 0.171
+Synkende: 0.181
+Tilfeldig: 0.024
+
+1 000 BucketSort:
+Stigende 0.005
+Synkende: 0.005
+Tilfeldig: 0.005
+
+10 000 SelectionSort:
+Stigende 4.285
+Synkende: 3.939
+Tilfeldig: 2.711
+
+10 000 InsertionSort:
+Stigende 2.077
+Synkende: 0.005
+Tilfeldig: 1.075
+
+10 000 QuickSort:
+Stigende 3.230
+Synkende: 1.188
+Tilfeldig: 1.546
+
+10 000 BucketSort:
+Stigende 0.094
+Synkende: 0.098
+Tilfeldig: 0.095
+
+100 000 SelectionSort:
+Stigende 385.688
+Synkende: 260.643
+Tilfeldig: 256.105
+
+100 000 InsertionSort:
+Stigende 167.366
+Synkende: 0.099
+Tilfeldig: 80.758
+
+100 000 QuickSort:
+Stigende 17.732
+Synkende: 113.913
+Tilfeldig: 12.679
+
+100 000 BucketSort:
+Stigende 0.671
+Synkende: 0.368
+Tilfeldig: 0.261
+
+1 000 000 SelectionSort:
+Stigende 38598.234
+Synkende: 26226.478
+Tilfeldig: 25933.381
+
+1 000 000 InsertionSort:
+Stigende 52481.134
+Synkende: 0.129
+Tilfeldig: 9305.689
+
+1 000 000 QuickSort:
+Stigende 1645.446
+Synkende: 18159.103
+Tilfeldig: 1534.124
+
+1 000 000 BucketSort:
+Stigende 1.228
+Synkende: 0.565
+Tilfeldig: 0.596
+
+10 000 000 BucketSort:
+Stigende 5.637
+Synkende: 4.822
+Tilfeldig: 4.107
+
+100 000 000 BucketSort:
+Stigende 46.429
+Synkende: 68.039
+Tilfeldig: 41.679
+
+-------
+For Arrays.sort()
+Full range
+
+1 000 Arrays.sort():
+Stigende 0.019
+Synkende: 0.023
+Tilfeldig: 0.050
+
+10 000 Arrays.sort():
+Stigende 0.0529633
+Synkende: 0.0862944
+Tilfeldig: 0.4450982
+
+100 000 Arrays.sort():
+Stigende 0.205766
+Synkende: 0.506586
+Tilfeldig: 3.5448671
+
+1 000 000 Arrays.sort():
+Stigende 0.7232958
+Synkende: 4.6877896
+Tilfeldig: 28.392868
+
+10 000 000 Arrays.sort():
+Stigende 1.4275434
+Synkende: 5.4395644
+Tilfeldig: 96.4910692
+
+100 000 000 Arrays.sort():
+Stigende 10.0199076
+Synkende: 24.6020008
+Tilfeldig: 946.1382176
+
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at Hovedprogram.main(Hovedprogram.java:85)
+
+--
+0 til 9
+
+1 000 Arrays.sort():
+Stigende 0.119
+Synkende: 0.121
+Tilfeldig: 0.131
+
+10 000 Arrays.sort():
+Stigende 0.094
+Synkende: 0.110
+Tilfeldig: 0.181
+
+100 000 Arrays.sort():
+Stigende 0.562
+Synkende: 0.726
+Tilfeldig: 0.950
+
+1 000 000 Arrays.sort():
+Stigende 1.450
+Synkende: 1.759
+Tilfeldig: 3.455
+
+10 000 000 Arrays.sort():
+Stigende 8.165
+Synkende: 9.774
+Tilfeldig: 22.135
+
+100 000 000 Arrays.sort():
+Stigende 14.900
+Synkende: 20.603
+Tilfeldig: 147.229
